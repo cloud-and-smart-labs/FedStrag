@@ -1,0 +1,13 @@
+absl-py~=0.10
+grpcio~=1.32.0
+matplotlib==3.5.3
+numpy==1.19.2
+opencv-python==3.4.2.17
+paho_mqtt==1.6.1
+pandas==1.3.4
+protobuf==3.9.2
+scipy==1.7.3
+six~=1.15.0
+tensorboard==2.4.0
+tensorflow==2.4.0
+wheel~=0.35

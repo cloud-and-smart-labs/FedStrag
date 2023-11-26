@@ -1,0 +1,96 @@
+version: '3'
+
+# services:
+#   client_async01:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "8081:8080"
+#     volumes:
+#       - ../data/node01:/app/data
+#       - ../data/node01:/app/Models
+#     network_mode: "host"
+
+# version: '3'
+# services:
+#   client_async:
+#     image: adityajnu14/async_client_arch32
+#     ports:
+#       - "8080:8080"
+#     volumes:
+#       - ./:/app
+
+
+# # Simulation code with fresh build image
+
+# services:
+#   client_async01:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "8081:8080"
+#     environment:
+#       - name=client1
+#     volumes:
+#       - ../data/node01/data_mnist:/app/data
+#       # - ../data/node01:/app/data
+#       - ../data/node01:/app/Models
+#     network_mode: "host"
+
+#   client_async02:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "8082:8080"
+#     environment:
+#       - name=client2
+#     volumes:
+#       - ../data/node02/data_mnist:/app/data
+#       # - ../data/node02:/app/data
+#       - ../data/node02:/app/Models
+#     network_mode: "host"
+
+#   client_async03:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "8083:8080"
+#     environment:
+#       - name=client3
+#     volumes:
+#       - ../data/node03/data_mnist:/app/data
+#       # - ../data/node03:/app/data
+#       - ../data/node03:/app/Models
+#     network_mode: "host"
+
+#   client_async04:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "8084:8080"
+#     environment:
+#       - name=client4
+#     volumes:
+#       - ../data/node04/data_mnist:/app/data
+#       # - ../data/node04:/app/data
+#       - ../data/node04:/app/Models
+#     network_mode: "host"
+
+#   client_async05:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     ports:
+#       - "8085:8080"
+#     environment:
+#       - name=client5
+#     volumes:
+#       - ../data/node05/data_mnist:/app/data
+#       # - ../data/node05:/app/data
+#       - ../data/node05:/app/Models
+#     network_mode: "host"
